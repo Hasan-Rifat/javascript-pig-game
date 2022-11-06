@@ -68,7 +68,7 @@ holdBtn.addEventListener('click', () => {
     scores[player] += currentScore;
     document.getElementById(`score--${player}`).innerText = scores[player];
 
-    if (scores[player] >= 10) {
+    if (scores[player] >= 100) {
       active = false;
       document
         .querySelector(`.player--${player}`)
