@@ -24,6 +24,8 @@ let currentScore, player, scores, active;
 const init = () => {
   score0.innerText = 0;
   score1.innerText = 0;
+  current0El.innerText = 0;
+  current1El.innerText = 0;
   currentScore = 0;
   player = 0;
   scores = [0, 0];
